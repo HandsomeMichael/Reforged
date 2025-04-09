@@ -1,0 +1,75 @@
+# This file will automatically update with entries for new content after a build and reload.
+
+Items: {
+	ExampleSword: {
+		DisplayName: "Example Sword"
+		Tooltip:
+			'''
+			Template of an item
+			Replacing this tooltip is duty 
+			It's snowing on Mt.Fuji
+			'''
+	}
+
+	ModifierBeam: 
+	{
+		DisplayName: "Beam Modifier"
+		Tooltip:
+			'''
+			+ Shoots a sword beam
+			- Reduce damage by 20%
+			'''
+	}
+
+	ModifierBeam2: 
+	{
+		DisplayName: "Beam Modifier"
+		Tooltip:
+			'''
+			+ Shoots 3 sword beams
+			- Reduce damage by 60%
+			'''
+	}
+
+	ModifierBeamPen: 
+	{
+		DisplayName: "Beam Modifier"
+		Tooltip:
+			'''
+			+ Shoots penetrating sword beams
+			- Reduce damage by 30%
+			- Reduce attack speed by 10%
+			'''
+	}
+
+	ModifierBeamPen: 
+	{
+		DisplayName: "Beam Modifier"
+		Tooltip:
+			'''
+			+ Shoots penetrating sword beams
+			- Reduce damage by 30%
+			- Reduce attack speed by 10%
+			'''
+	}
+	ModifierExecute: 
+	{
+		DisplayName: "Execute Modifier"
+		Tooltip:
+			'''
+			+ Execute non-bosses enemy below 5% life
+			- Reduced damage by 10%
+			'''
+	}
+
+	ModifierEarth: 
+	{
+		DisplayName: "Earth Modifier"
+		Tooltip:
+			'''
+			+ Increased attack speed
+			+ Increased attack damage
+			- Each swung takes life
+			'''
+	}
+}
