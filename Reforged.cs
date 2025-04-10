@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Humanizer;
 using Microsoft.Xna.Framework;
 using Reforged.Helper;
 using Terraria;
@@ -13,6 +12,24 @@ using Terraria.ModLoader;
 
 namespace Reforged
 {
+
+    public abstract class ModifierItem : ModItem
+    {
+
+        public bool ApplyMelee(Item item)
+        {
+            return item.melee;
+        }
+        public virtual bool ApplyOn(Item weapon)
+        {
+            return true;
+        }
+    }
+
+    public class ModifierBeam : ModifierItem
+    {
+
+    }
 	public class Reforged : Mod
 	{
         public override object Call(params object[] args)

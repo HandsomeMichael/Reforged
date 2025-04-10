@@ -1,75 +1,330 @@
 # This file will automatically update with entries for new content after a build and reload.
 
 Items: {
-	ExampleSword: {
-		DisplayName: "Example Sword"
-		Tooltip:
-			'''
-			Template of an item
-			Replacing this tooltip is duty 
-			It's snowing on Mt.Fuji
-			'''
-	}
 
 	ModifierBeam: 
 	{
 		DisplayName: "Beam Modifier"
-		Tooltip:
+		Tier1:
 			'''
 			+ Shoots a sword beam
 			- Reduce damage by 20%
 			'''
-	}
-
-	ModifierBeam2: 
-	{
-		DisplayName: "Beam Modifier"
-		Tooltip:
+		Tier2:
 			'''
 			+ Shoots 3 sword beams
-			- Reduce damage by 60%
+			- Reduce damage by 40%
 			'''
+		Tier3:
+			'''
+			+ Shoots a homing sword beams
+			- Reduce damage by 10%
+			'''
+		Text: "'Slop weapon ahh'"
 	}
 
 	ModifierBeamPen: 
 	{
-		DisplayName: "Beam Modifier"
-		Tooltip:
+		DisplayName: "Penetrating Beam Modifier"
+		Tier1:
 			'''
 			+ Shoots penetrating sword beams
 			- Reduce damage by 30%
 			- Reduce attack speed by 10%
 			'''
+		
+		Tier4:
+			'''
+			+ Shoots infinitely penetrating sword beam
+			-  
+			'''
+		Text: "'Heaven pierce her'"
 	}
 
-	ModifierBeamPen: 
+	ModifierInferno: 
 	{
-		DisplayName: "Beam Modifier"
-		Tooltip:
+		DisplayName: "Inferno Modifier"
+		Tier1:
 			'''
-			+ Shoots penetrating sword beams
-			- Reduce damage by 30%
-			- Reduce attack speed by 10%
+			+ Increased 20% damage on lava
+			- Slowly melt the user not in underworld
 			'''
+		Tier2:
+			'''
+			+ Increased 10% damage
+			+ Increased 20% damage in underworld
+			- The sun and moon melts your hand
+			'''
+		Tier3:
+			'''
+			+ Increased 40% damage
+			- Rapidly melts when held not in underworld
+			'''
+		Text: "'Divine comedy'"
 	}
+
 	ModifierExecute: 
 	{
 		DisplayName: "Execute Modifier"
-		Tooltip:
+		Tier1:
 			'''
-			+ Execute non-bosses enemy below 5% life
-			- Reduced damage by 10%
+			+ Execute non-bosses enemy below 8% life
+			- Reduced damage by 4%
+			'''
+		Tier2:
+			'''
+			+ Execute non-bosses enemy below 15% life
+			- Reduced damage by 5%
+			'''
+		Tier3:
+			'''
+			+ Execute any enemy below 16% life
+			- Reduced damage by 6%
 			'''
 	}
 
-	ModifierEarth: 
+	ModifierIngenious: 
 	{
-		DisplayName: "Earth Modifier"
-		Tooltip:
+		DisplayName: "Ingenious Modifier"
+		Tier1:
 			'''
-			+ Increased attack speed
-			+ Increased attack damage
-			- Each swung takes life
+			Critical hit flip a coin with 5 sec cooldown
+			+ Heads increase damage 10%
+			- Tails reduce damage by 15%
+			'''
+		Tier2:
+			'''
+			Striking enemy flip a coin with 5 sec cooldown
+			+ Heads increase damage 15%
+			- Tails reduce damage by 10%
+			'''
+		Tier3:
+			'''
+			Striking enemy flip 2 coin with 8 sec cooldown
+			+ Double heads increase damage by 25%
+			+ Heads increase damage 15%
+			- Tails reduce damage by 10%
+			- Double tails will hurt you for 15% hp
+			'''
+		Text: "'An idea most ingenious'"
+	}
+
+	ModifierDeserted: 
+	{
+		DisplayName: "Deserted Modifier"
+		Tier1:
+			'''
+			+ Standing on sand increase damage by 10% 
+			- Non desert biome reduce damage by 10% 
+			'''
+		Tier2:
+			'''
+			+ Increase damage by 15% when riding horse
+			- Non desert biome reduce damage by 4% 
+			- Reduce damage by 4%
+			'''
+		Text: "'Horsing around'"
+	}
+
+	ModifierBosses: 
+	{
+		DisplayName: "Bossilience Modifier"
+		Tier1:
+			'''
+			+ Increased damage to boss by 10%
+			- Weight the player by 10% 
+			'''
+		Tier2:
+			'''
+			+ Increased damage to boss by 20%
+			- Weight the player by 10%
 			'''
 	}
+
+	ModifierTuff: 
+	{
+		DisplayName: "Tuff Modifier"
+		Tier1:
+			'''
+			+ Increased damage to non-bosses by 10%
+			- Weight the player by 20% 
+			'''
+		Tier2:
+			'''
+			+ Increased damage to non-bosses by 20%
+			- Weight the player by 30%
+			'''
+	}
+
+	ModifierDupe: 
+	{
+		DisplayName: "Dupe Modifier"
+		Tier1:
+			'''
+			+ 8% chance to multiply projectile
+			- 4% chance to not shoot projectile
+			'''
+		Tier2:
+			'''
+			+ 50% chance to dupe projectile
+			- Reduced damage by 10%
+			'''
+		Text: "'Mutual cloning'"
+	}
+
+	ModifierSkelebones: 
+	{
+		DisplayName: "Skelebones Modifier"
+		Tier1:
+			'''
+			+ Increased damage by 30%
+			- Disable life regen for 30s each swung
+			'''
+		Text: "'Dreaded'"
+	}
+
+	ModifierCrimson: 
+	{
+		DisplayName: "Crimson Modifier"
+		Tier1:
+			'''
+			+ Projectile bends into enemy
+			- Reduced attack speed by 5%
+			'''
+		Text: "'As it bends the world'"
+	}
+
+	ModifierShaded: 
+	{
+		DisplayName: "Shaded Modifier"
+		Tier1:
+			'''
+			Attack speed up after hitting enemy
+			Maximum of 30% speed increase
+			- Reduce base attack speed by 15%
+			'''
+		Text: "'Too slow !'"
+	}
+
+	ModifierShaded: 
+	{
+		DisplayName: "Shaded Modifier"
+		Tier1:
+			'''
+			Attack speed up after hitting enemy
+			Maximum of 30% speed increase
+			- Reduce base attack speed by 15%
+			'''
+		Text: "'Too slow !'"
+	}
+
+	ModifierBloom: 
+	{
+		DisplayName: "Bloom Modifier"
+		Tier1:
+			'''
+			+ Hitting enemy with 2 related debuffs will apply extra damage
+			- Reduce damage by 5%
+			'''
+		Text: "'Blooming Sickness'"
+	}
+
+	ModifierGrowth: 
+	{
+		DisplayName: "Growth Modifier"
+		Tier1:
+			'''
+			+ Empower weapon the longer it being held
+			- Base damage reduced by 15%
+			'''
+		Text: "'I am groot'"
+	}
+
+	ModifierPossum: 
+	{
+		DisplayName: "Possum Modifier"
+		Tier1:
+			'''
+			+ 1% chance to instakill weak enemies
+			- 1% chance to heal enemies by 10 life
+			'''
+		Text: "'Look at possum'"
+	}
+
+	ModifierForce: 
+	{
+		DisplayName: "Force Modifier"
+		Tier1:
+			'''
+			+ Apply special knockback
+			- Reduced on some ranged weapon
+			'''
+		Text: "'Boing boing'"
+	}
+
+	ModifierTitan: 
+	{
+		DisplayName: "Titan Modifier"
+		Tier1:
+			'''
+			+ Turns knockback into damage boost
+			- No knockback
+			'''
+		Text: "'Domestic violence'"
+	}
+
+	ModifierClash: 
+	{
+		DisplayName: "Clash Modifier"
+		Tier1:
+			'''
+			+ Increased damage by 5%
+			'''
+		Tier2:
+			'''
+			+ Increased damage by 8%
+			'''
+		Tier3:
+			'''
+			+ Increased damage by 10%
+			'''
+	}
+
+	ModifierSwift: 
+	{
+		DisplayName: "Clash Modifier"
+		Tier1:
+			'''
+			+ Increased user speed by 4%
+			'''
+		Tier2:
+			'''
+			+ Increased user speed by 8%
+			'''
+		Tier3:
+			'''
+			+ Increased user speed by 10%
+			'''
+	}
+
+	ModifierHeavy: 
+	{
+		DisplayName: "Heavy Modifier"
+		Tier1:
+			'''
+			+ Increased damage by 5%
+			- Weight the player by 10%
+			'''
+		Tier2:
+			'''
+			+ Increased damage by 10%
+			- Weight the player by 18%
+			'''
+		Tier3:
+			'''
+			+ Increased damage by 20%
+			- Weight the player based on its damage
+			'''
+	}
+
 }

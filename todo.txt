@@ -1,0 +1,8 @@
+
+Stuff :
+
+
+1. proper file structure
+2. modifier synergy
+3. calamity compatibility
+4. npcs prefix

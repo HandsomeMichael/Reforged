@@ -3,10 +3,12 @@ using Terraria.DataStructures;
 using Terraria.ModLoader;
 namespace Reforged.Helper
 {
+
+    /// <summary>
+    /// Any bullshit helper that i even prob forgor about
+    /// </summary>
     public static class Helpme 
     {
-
-
         
         /// <summary>
         /// Check if NPC has any corresponding buffs
